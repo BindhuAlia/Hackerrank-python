@@ -1,0 +1,7 @@
+n=int(input().strip())
+stamps=set()
+for i in range(n):
+    stamp=input().strip()
+    stamps.add(stamp)
+
+print(len(stamps))
